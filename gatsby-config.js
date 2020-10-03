@@ -3,7 +3,7 @@ module.exports = {
     title: `Bloggy`,
     author: {
       name: `Verric`,
-      summary: `...`,
+      summary: ``,
     },
     description: `Blog?`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
