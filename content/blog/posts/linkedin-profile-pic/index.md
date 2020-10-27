@@ -1,6 +1,6 @@
 ---
 title: When LinkedIn asks you to add a profile picture to attract views
-date: 2019-02-03 19:01:29
+date: 2020-02-03 19:01:29
 tags: ["memes"]
 ---
 
