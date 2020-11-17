@@ -50,28 +50,22 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
-      <header>{header}</header>
-      <nav
-        className="flex"
-        style={{
-          justifyContent: "space-between",
-          paddingBottom: "2em",
-        }}
-      >
+      <header className="my-4">{header}</header>
+      <nav className="flex justify-between py-4">
         <Link to="/about">About Me</Link>
-        <Link to="/site">About Site</Link>
         <Link to="/music">Music</Link>
         <Link to="/i30N">i30N</Link>
       </nav>
 
       <main>{children}</main>
+
       <footer>
         <p>
-          <span role="img" aria-label="Consutruction Sign">
+          <span role="img" aria-label="Construction Sign">
             🚧
           </span>{" "}
           Site is currently under construction{" "}
-          <span role="img" aria-label="Consutruction Sign">
+          <span role="img" aria-label="Construction Sign">
             🚧
           </span>{" "}
         </p>

@@ -8,10 +8,8 @@ const About = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <p>
-        Commonly go by the name Verric. This is my (nearly) sole avatar, so if
-        you see the image below it's a good chance it's me{" "}
-      </p>
+      <h3>Verric</h3>
+      <br />
       <img src="https://i.imgur.com/9gM7DzK.jpg" alt="verric" />
     </Layout>
   )
