@@ -34,7 +34,7 @@ const Layout = ({ location, title, children }) => {
             boxShadow: `none`,
             color: `inherit`,
           }}
-          to={`/`}
+          to="/"
         >
           {title}
         </Link>
@@ -52,8 +52,8 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <nav
+        className="flex"
         style={{
-          display: "flex",
           justifyContent: "space-between",
           paddingBottom: "2em",
         }}

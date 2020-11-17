@@ -1,4 +1,5 @@
 import React from "react"
+import Card from "../../components/card"
 import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
@@ -6,7 +7,11 @@ import Layout from "../../components/layout"
 const About = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
 
-  return <Layout location={location} title={siteTitle}></Layout>
+  return (
+    <Layout location={location} title={siteTitle}>
+      <Card />
+    </Layout>
+  )
 }
 
 export default About
