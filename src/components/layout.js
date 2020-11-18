@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import { rhythm } from "../utils/typography"
+import { Container } from "semantic-ui-react"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -42,14 +41,7 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      }}
-    >
+    <Container text>
       <header className="my-4">{header}</header>
       <nav className="flex justify-between py-4">
         <Link to="/about">About Me</Link>
@@ -73,7 +65,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
-    </div>
+    </Container>
   )
 }
 
