@@ -1,5 +1,5 @@
 import React from "react"
-import { Button, Card } from "semantic-ui-react"
+import { Card } from "semantic-ui-react"
 import { graphql } from "gatsby"
 
 import Layout from "../../components/layout"
@@ -9,8 +9,9 @@ const About = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Card />
-      <Button primary content="Hello" />
+      <Card>
+        <Card.Content>Test :)</Card.Content>
+      </Card>
     </Layout>
   )
 }
