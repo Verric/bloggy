@@ -17,5 +17,5 @@ append the following to `gatsby-browser.js`
 import "semantic-ui-css/semantic.min.css"
 ```
 
-At this stage I'm begging to assume that anything you put in `index.js` in a `Create-React-App` you just put into `gatsby-browser.js`
+At this stage I'm beginning to assume that anything you put in `index.js` in a `Create-React-App` you just put into `gatsby-browser.js`
 and wing it from there.
