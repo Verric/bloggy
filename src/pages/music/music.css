@@ -1,0 +1,4 @@
+.video-set {
+  display: flex;
+  flex-direction: column;
+}
