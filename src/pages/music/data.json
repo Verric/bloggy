@@ -3,7 +3,6 @@
     "title": "Cough Syrup",
     "artist": "Young the giant",
     "releaseDate": "2011",
-    "country": "us",
     "list": "I like it"
 },
 {
@@ -11,6 +10,5 @@
     "title": "This Heart Attack",
     "artist": "Faker",
     "releaseDate": "2007",
-    "country": "au",
-    "list": "Aussie Bands Volume 1S"
+    "list": "Aussie Bands Volume 1"
 }]
