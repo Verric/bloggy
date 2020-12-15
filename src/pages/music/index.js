@@ -23,7 +23,7 @@ const groupStuff = (songs, value) =>
   )
 const Music = () => {
   const [videoId, setVideoId] = useState(null)
-  const [grouping, setGrouping] = useState("artist")
+  const [grouping, setGrouping] = useState("list")
   const [songData, setSongData] = useState(groupStuff(data, grouping))
 
   useEffect(() => {

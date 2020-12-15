@@ -11,4 +11,24 @@
     "artist": "Faker",
     "releaseDate": "2007",
     "list": "Aussie Bands Volume 1"
+},
+{
+    "id": "eYDI8b5Nn5s",
+    "title": "Buttercup",
+    "artist": "Jack Stauber",
+    "releaseDate": "2017",
+    "list": "Random: Pack 1"
+},{
+    "id": "_C7UgR_sIW0",
+    "title": "All Night",
+    "artist": "Parov Stelar",
+    "releaseDate": "2014",
+    "list": "Random: Pack 1"
+},
+{
+    "id": "5pidokakU4I",
+    "title": "4 Chords",
+    "artist": "Axis of Awesome",
+    "releaseDate": "2011",
+    "list": "Random: Pack 1"
 }]
